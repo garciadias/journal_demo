@@ -1,1 +1,1 @@
-journal_demo
+# Journal demo
