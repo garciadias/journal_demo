@@ -14,3 +14,10 @@ plt.ylim(18, 10)
 plt.xlim(-0.15, 2)
 plt.title('M67 2MASS', fontsize=18)
 plt.show()
+
+sns.pairplot(dset, x_vars=['JK'], y_vars=['J'],
+             hue='survey', size=9, plot_kws=dict(s=65))
+plt.title('2MASS Photometry')
+plt.ylim(18, 5)
+plt.xlim(-0.15, 2)
+plt.show()
